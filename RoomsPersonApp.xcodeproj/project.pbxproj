@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		848DC9D028ABE154001FB00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9CF28ABE154001FB00A /* AppDelegate.swift */; };
 		848DC9D228ABE154001FB00A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9D128ABE154001FB00A /* SceneDelegate.swift */; };
-		848DC9D428ABE154001FB00A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9D328ABE154001FB00A /* ViewController.swift */; };
 		848DC9D728ABE154001FB00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848DC9D528ABE154001FB00A /* Main.storyboard */; };
 		848DC9D928ABE156001FB00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848DC9D828ABE156001FB00A /* Assets.xcassets */; };
 		848DC9DC28ABE156001FB00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848DC9DA28ABE156001FB00A /* LaunchScreen.storyboard */; };
 		848DC9E728ABE156001FB00A /* RoomsPersonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */; };
 		848DC9F128ABE156001FB00A /* RoomsPersonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F028ABE156001FB00A /* RoomsPersonAppUITests.swift */; };
 		848DC9F328ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */; };
+		848DCA0228ABE439001FB00A /* Localizable in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA0128ABE439001FB00A /* Localizable */; };
+		848DCA0528ABE5B5001FB00A /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		848DC9CC28ABE154001FB00A /* RoomsPersonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomsPersonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848DC9CF28ABE154001FB00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848DC9D128ABE154001FB00A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848DC9D328ABE154001FB00A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848DC9D628ABE154001FB00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848DC9D828ABE156001FB00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848DC9DB28ABE156001FB00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		848DC9EC28ABE156001FB00A /* RoomsPersonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsPersonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848DC9F028ABE156001FB00A /* RoomsPersonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITests.swift; sourceTree = "<group>"; };
 		848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		848DCA0128ABE439001FB00A /* Localizable */ = {isa = PBXFileReference; lastKnownFileType = text; path = Localizable; sourceTree = "<group>"; };
+		848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,7 @@
 			children = (
 				848DC9CF28ABE154001FB00A /* AppDelegate.swift */,
 				848DC9D128ABE154001FB00A /* SceneDelegate.swift */,
-				848DC9D328ABE154001FB00A /* ViewController.swift */,
+				848DC9FF28ABE36D001FB00A /* RoomsPersonApp */,
 				848DC9D528ABE154001FB00A /* Main.storyboard */,
 				848DC9D828ABE156001FB00A /* Assets.xcassets */,
 				848DC9DA28ABE156001FB00A /* LaunchScreen.storyboard */,
@@ -125,6 +127,31 @@
 				848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */,
 			);
 			path = RoomsPersonAppUITests;
+			sourceTree = "<group>";
+		};
+		848DC9FF28ABE36D001FB00A /* RoomsPersonApp */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA0328ABE595001FB00A /* Coordinator */,
+				848DCA0028ABE38C001FB00A /* Localization */,
+			);
+			path = RoomsPersonApp;
+			sourceTree = "<group>";
+		};
+		848DCA0028ABE38C001FB00A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA0128ABE439001FB00A /* Localizable */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		848DCA0328ABE595001FB00A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848DC9DC28ABE156001FB00A /* LaunchScreen.storyboard in Resources */,
+				848DCA0228ABE439001FB00A /* Localizable in Resources */,
 				848DC9D928ABE156001FB00A /* Assets.xcassets in Resources */,
 				848DC9D728ABE154001FB00A /* Main.storyboard in Resources */,
 			);
@@ -258,9 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848DC9D428ABE154001FB00A /* ViewController.swift in Sources */,
 				848DC9D028ABE154001FB00A /* AppDelegate.swift in Sources */,
 				848DC9D228ABE154001FB00A /* SceneDelegate.swift in Sources */,
+				848DCA0528ABE5B5001FB00A /* CoordinatorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
