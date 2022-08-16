@@ -17,6 +17,37 @@
 		848DC9F328ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */; };
 		848DCA0228ABE439001FB00A /* Localizable in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA0128ABE439001FB00A /* Localizable */; };
 		848DCA0528ABE5B5001FB00A /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */; };
+		848DCA0728ABE782001FB00A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0628ABE782001FB00A /* AppCoordinator.swift */; };
+		848DCA0928ABE7B1001FB00A /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0828ABE7B1001FB00A /* PeoplesCoordinator.swift */; };
+		848DCA0B28ABE7D6001FB00A /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0A28ABE7D6001FB00A /* RoomsCoordinator.swift */; };
+		848DCA0F28ABE85C001FB00A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0E28ABE85C001FB00A /* APIError.swift */; };
+		848DCA1128ABE885001FB00A /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1028ABE885001FB00A /* APIRequest.swift */; };
+		848DCA1328ABE899001FB00A /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1228ABE899001FB00A /* EndPoints.swift */; };
+		848DCA1528ABE8BF001FB00A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1428ABE8BF001FB00A /* NetworkManager.swift */; };
+		848DCA1728ABE8DF001FB00A /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1628ABE8DF001FB00A /* URLRequest+Extension.swift */; };
+		848DCA1A28ABE951001FB00A /* RoomsResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1928ABE951001FB00A /* RoomsResponce.swift */; };
+		848DCA1C28ABE9B7001FB00A /* RoomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1B28ABE9B7001FB00A /* RoomsRepository.swift */; };
+		848DCA1E28ABE9E3001FB00A /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1D28ABE9E3001FB00A /* RoomsViewController.swift */; };
+		848DCA2028ABEA0D001FB00A /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1F28ABEA0D001FB00A /* RoomsViewModel.swift */; };
+		848DCA2228ABEA35001FB00A /* RoomsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA2128ABEA35001FB00A /* RoomsUseCase.swift */; };
+		848DCA2428ABEA54001FB00A /* RoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA2328ABEA54001FB00A /* RoomRecord.swift */; };
+		848DCA2628ABEA7B001FB00A /* RoomsViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA2528ABEA7B001FB00A /* RoomsViewStates.swift */; };
+		848DCA2828ABEAC0001FB00A /* RoomsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA2728ABEAC0001FB00A /* RoomsTableViewCell.swift */; };
+		848DCA2D28ABEB45001FB00A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA2C28ABEB45001FB00A /* Constants.swift */; };
+		848DCA3028ABEBD3001FB00A /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA2F28ABEBD3001FB00A /* Alertable.swift */; };
+		848DCA3228ABEC01001FB00A /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3128ABEC01001FB00A /* Storyboardable.swift */; };
+		848DCA3428ABEC16001FB00A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3328ABEC16001FB00A /* UIFont+Extension.swift */; };
+		848DCA3628ABEC81001FB00A /* PeoplesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3528ABEC81001FB00A /* PeoplesRepository.swift */; };
+		848DCA3828ABECC3001FB00A /* PeoplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3728ABECC3001FB00A /* PeoplesViewController.swift */; };
+		848DCA3A28ABECF0001FB00A /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3928ABECF0001FB00A /* PeopleViewModel.swift */; };
+		848DCA3C28ABED42001FB00A /* PeopleResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3B28ABED42001FB00A /* PeopleResponce.swift */; };
+		848DCA3E28ABED6D001FB00A /* PeopleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3D28ABED6D001FB00A /* PeopleRecord.swift */; };
+		848DCA4028ABED8E001FB00A /* PeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA3F28ABED8E001FB00A /* PeopleUseCase.swift */; };
+		848DCA4228ABEDA8001FB00A /* PeopleViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA4128ABEDA8001FB00A /* PeopleViewStates.swift */; };
+		848DCA4428ABEDDB001FB00A /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA4328ABEDDB001FB00A /* PeopleCollectionViewCell.swift */; };
+		848DCA4A28ABEF1D001FB00A /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA4928ABEF1D001FB00A /* MockNetworkManager.swift */; };
+		848DCA5328ABF03D001FB00A /* EmptyRoomsResonse.json in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA5228ABF03D001FB00A /* EmptyRoomsResonse.json */; };
+		848DCA5528ABF0A7001FB00A /* ValidRoomsResonse.json in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA5428ABF0A7001FB00A /* ValidRoomsResonse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +82,37 @@
 		848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		848DCA0128ABE439001FB00A /* Localizable */ = {isa = PBXFileReference; lastKnownFileType = text; path = Localizable; sourceTree = "<group>"; };
 		848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		848DCA0628ABE782001FB00A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		848DCA0828ABE7B1001FB00A /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
+		848DCA0A28ABE7D6001FB00A /* RoomsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
+		848DCA0E28ABE85C001FB00A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		848DCA1028ABE885001FB00A /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		848DCA1228ABE899001FB00A /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		848DCA1428ABE8BF001FB00A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		848DCA1628ABE8DF001FB00A /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		848DCA1928ABE951001FB00A /* RoomsResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsResponce.swift; sourceTree = "<group>"; };
+		848DCA1B28ABE9B7001FB00A /* RoomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRepository.swift; sourceTree = "<group>"; };
+		848DCA1D28ABE9E3001FB00A /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		848DCA1F28ABEA0D001FB00A /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		848DCA2128ABEA35001FB00A /* RoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUseCase.swift; sourceTree = "<group>"; };
+		848DCA2328ABEA54001FB00A /* RoomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRecord.swift; sourceTree = "<group>"; };
+		848DCA2528ABEA7B001FB00A /* RoomsViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewStates.swift; sourceTree = "<group>"; };
+		848DCA2728ABEAC0001FB00A /* RoomsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTableViewCell.swift; sourceTree = "<group>"; };
+		848DCA2C28ABEB45001FB00A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		848DCA2F28ABEBD3001FB00A /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		848DCA3128ABEC01001FB00A /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		848DCA3328ABEC16001FB00A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		848DCA3528ABEC81001FB00A /* PeoplesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesRepository.swift; sourceTree = "<group>"; };
+		848DCA3728ABECC3001FB00A /* PeoplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesViewController.swift; sourceTree = "<group>"; };
+		848DCA3928ABECF0001FB00A /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		848DCA3B28ABED42001FB00A /* PeopleResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResponce.swift; sourceTree = "<group>"; };
+		848DCA3D28ABED6D001FB00A /* PeopleRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecord.swift; sourceTree = "<group>"; };
+		848DCA3F28ABED8E001FB00A /* PeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCase.swift; sourceTree = "<group>"; };
+		848DCA4128ABEDA8001FB00A /* PeopleViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewStates.swift; sourceTree = "<group>"; };
+		848DCA4328ABEDDB001FB00A /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		848DCA4928ABEF1D001FB00A /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		848DCA5228ABF03D001FB00A /* EmptyRoomsResonse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EmptyRoomsResonse.json; sourceTree = "<group>"; };
+		848DCA5428ABF0A7001FB00A /* ValidRoomsResonse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ValidRoomsResonse.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +163,10 @@
 		848DC9CE28ABE154001FB00A /* RoomsPersonApp */ = {
 			isa = PBXGroup;
 			children = (
+				848DCA0C28ABE839001FB00A /* Sources */,
 				848DC9CF28ABE154001FB00A /* AppDelegate.swift */,
 				848DC9D128ABE154001FB00A /* SceneDelegate.swift */,
 				848DC9FF28ABE36D001FB00A /* RoomsPersonApp */,
-				848DC9D528ABE154001FB00A /* Main.storyboard */,
 				848DC9D828ABE156001FB00A /* Assets.xcassets */,
 				848DC9DA28ABE156001FB00A /* LaunchScreen.storyboard */,
 				848DC9DD28ABE156001FB00A /* Info.plist */,
@@ -115,6 +177,9 @@
 		848DC9E528ABE156001FB00A /* RoomsPersonAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				848DCA4728ABEE96001FB00A /* Presentation */,
+				848DCA4628ABEE8E001FB00A /* Domain */,
+				848DCA4528ABEE86001FB00A /* Data */,
 				848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */,
 			);
 			path = RoomsPersonAppTests;
@@ -132,6 +197,9 @@
 		848DC9FF28ABE36D001FB00A /* RoomsPersonApp */ = {
 			isa = PBXGroup;
 			children = (
+				848DCA2A28ABEB0E001FB00A /* Utility */,
+				848DCA2928ABEAF0001FB00A /* People */,
+				848DCA1828ABE93B001FB00A /* Rooms */,
 				848DCA0328ABE595001FB00A /* Coordinator */,
 				848DCA0028ABE38C001FB00A /* Localization */,
 			);
@@ -150,8 +218,145 @@
 			isa = PBXGroup;
 			children = (
 				848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */,
+				848DCA0628ABE782001FB00A /* AppCoordinator.swift */,
+				848DCA0828ABE7B1001FB00A /* PeoplesCoordinator.swift */,
+				848DCA0A28ABE7D6001FB00A /* RoomsCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		848DCA0C28ABE839001FB00A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA0D28ABE844001FB00A /* CoreNetwork */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		848DCA0D28ABE844001FB00A /* CoreNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA0E28ABE85C001FB00A /* APIError.swift */,
+				848DCA1028ABE885001FB00A /* APIRequest.swift */,
+				848DCA1228ABE899001FB00A /* EndPoints.swift */,
+				848DCA1428ABE8BF001FB00A /* NetworkManager.swift */,
+				848DCA1628ABE8DF001FB00A /* URLRequest+Extension.swift */,
+			);
+			path = CoreNetwork;
+			sourceTree = "<group>";
+		};
+		848DCA1828ABE93B001FB00A /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA1928ABE951001FB00A /* RoomsResponce.swift */,
+				848DCA1B28ABE9B7001FB00A /* RoomsRepository.swift */,
+				848DCA1D28ABE9E3001FB00A /* RoomsViewController.swift */,
+				848DCA1F28ABEA0D001FB00A /* RoomsViewModel.swift */,
+				848DCA2128ABEA35001FB00A /* RoomsUseCase.swift */,
+				848DCA2328ABEA54001FB00A /* RoomRecord.swift */,
+				848DCA2528ABEA7B001FB00A /* RoomsViewStates.swift */,
+				848DCA2728ABEAC0001FB00A /* RoomsTableViewCell.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		848DCA2928ABEAF0001FB00A /* People */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA3528ABEC81001FB00A /* PeoplesRepository.swift */,
+				848DCA3728ABECC3001FB00A /* PeoplesViewController.swift */,
+				848DCA3928ABECF0001FB00A /* PeopleViewModel.swift */,
+				848DCA3B28ABED42001FB00A /* PeopleResponce.swift */,
+				848DCA3D28ABED6D001FB00A /* PeopleRecord.swift */,
+				848DCA3F28ABED8E001FB00A /* PeopleUseCase.swift */,
+				848DCA4128ABEDA8001FB00A /* PeopleViewStates.swift */,
+				848DCA4328ABEDDB001FB00A /* PeopleCollectionViewCell.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		848DCA2A28ABEB0E001FB00A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA2E28ABEB58001FB00A /* Storyboards */,
+				848DCA2B28ABEB1F001FB00A /* fonts */,
+				848DCA2F28ABEBD3001FB00A /* Alertable.swift */,
+				848DCA3128ABEC01001FB00A /* Storyboardable.swift */,
+				848DCA3328ABEC16001FB00A /* UIFont+Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		848DCA2B28ABEB1F001FB00A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA2C28ABEB45001FB00A /* Constants.swift */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		848DCA2E28ABEB58001FB00A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				848DC9D528ABE154001FB00A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		848DCA4528ABEE86001FB00A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA4B28ABEF43001FB00A /* json */,
+				848DCA4828ABEEFE001FB00A /* Mock */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		848DCA4628ABEE8E001FB00A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		848DCA4728ABEE96001FB00A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		848DCA4828ABEEFE001FB00A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA4928ABEF1D001FB00A /* MockNetworkManager.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		848DCA4B28ABEF43001FB00A /* json */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA4D28ABEF60001FB00A /* people */,
+				848DCA4C28ABEF58001FB00A /* rooms */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		848DCA4C28ABEF58001FB00A /* rooms */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA5228ABF03D001FB00A /* EmptyRoomsResonse.json */,
+				848DCA5428ABF0A7001FB00A /* ValidRoomsResonse.json */,
+			);
+			path = rooms;
+			sourceTree = "<group>";
+		};
+		848DCA4D28ABEF60001FB00A /* people */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = people;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +474,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848DCA5528ABF0A7001FB00A /* ValidRoomsResonse.json in Resources */,
+				848DCA5328ABF03D001FB00A /* EmptyRoomsResonse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +493,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848DCA3228ABEC01001FB00A /* Storyboardable.swift in Sources */,
+				848DCA2428ABEA54001FB00A /* RoomRecord.swift in Sources */,
+				848DCA4028ABED8E001FB00A /* PeopleUseCase.swift in Sources */,
+				848DCA3628ABEC81001FB00A /* PeoplesRepository.swift in Sources */,
+				848DCA3A28ABECF0001FB00A /* PeopleViewModel.swift in Sources */,
+				848DCA0728ABE782001FB00A /* AppCoordinator.swift in Sources */,
+				848DCA1328ABE899001FB00A /* EndPoints.swift in Sources */,
+				848DCA1528ABE8BF001FB00A /* NetworkManager.swift in Sources */,
+				848DCA3428ABEC16001FB00A /* UIFont+Extension.swift in Sources */,
+				848DCA1E28ABE9E3001FB00A /* RoomsViewController.swift in Sources */,
+				848DCA2828ABEAC0001FB00A /* RoomsTableViewCell.swift in Sources */,
+				848DCA4228ABEDA8001FB00A /* PeopleViewStates.swift in Sources */,
 				848DC9D028ABE154001FB00A /* AppDelegate.swift in Sources */,
+				848DCA4428ABEDDB001FB00A /* PeopleCollectionViewCell.swift in Sources */,
+				848DCA1C28ABE9B7001FB00A /* RoomsRepository.swift in Sources */,
+				848DCA2228ABEA35001FB00A /* RoomsUseCase.swift in Sources */,
+				848DCA3C28ABED42001FB00A /* PeopleResponce.swift in Sources */,
 				848DC9D228ABE154001FB00A /* SceneDelegate.swift in Sources */,
 				848DCA0528ABE5B5001FB00A /* CoordinatorType.swift in Sources */,
+				848DCA0928ABE7B1001FB00A /* PeoplesCoordinator.swift in Sources */,
+				848DCA0B28ABE7D6001FB00A /* RoomsCoordinator.swift in Sources */,
+				848DCA1128ABE885001FB00A /* APIRequest.swift in Sources */,
+				848DCA2628ABEA7B001FB00A /* RoomsViewStates.swift in Sources */,
+				848DCA3028ABEBD3001FB00A /* Alertable.swift in Sources */,
+				848DCA3828ABECC3001FB00A /* PeoplesViewController.swift in Sources */,
+				848DCA2D28ABEB45001FB00A /* Constants.swift in Sources */,
+				848DCA1A28ABE951001FB00A /* RoomsResponce.swift in Sources */,
+				848DCA1728ABE8DF001FB00A /* URLRequest+Extension.swift in Sources */,
+				848DCA3E28ABED6D001FB00A /* PeopleRecord.swift in Sources */,
+				848DCA0F28ABE85C001FB00A /* APIError.swift in Sources */,
+				848DCA2028ABEA0D001FB00A /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848DCA4A28ABEF1D001FB00A /* MockNetworkManager.swift in Sources */,
 				848DC9E728ABE156001FB00A /* RoomsPersonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
