@@ -1,6 +1,6 @@
 //
 //  PeopleUseCaseTests.swift
-//  DirectoryAppTests
+//  RoomsPersonAppTests
 //
 //  Created by Daniel on 15/08/22.
 //

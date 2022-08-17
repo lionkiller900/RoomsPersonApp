@@ -1,6 +1,6 @@
 //
 //  PeopleRepositoryTests.swift
-//  DirectoryAppTests
+//  RoomsPersonAppTests
 //
 //  Created by Donald Daniels on 15/08/22.
 //

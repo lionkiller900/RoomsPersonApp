@@ -1,6 +1,6 @@
 //
 //  PeopleCollectionViewCell.swift
-//  DirectoryApp
+//  RoomsPersonApp
 //
 //  Created by  Donald Daniels on 15/08/22.
 //
