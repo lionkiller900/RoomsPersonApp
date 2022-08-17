@@ -15,16 +15,11 @@
 		848DC9E728ABE156001FB00A /* RoomsPersonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */; };
 		848DC9F128ABE156001FB00A /* RoomsPersonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F028ABE156001FB00A /* RoomsPersonAppUITests.swift */; };
 		848DC9F328ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */; };
-		848DCA0228ABE439001FB00A /* Localizable in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA0128ABE439001FB00A /* Localizable */; };
+		848DCA0228ABE439001FB00A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA0128ABE439001FB00A /* Localizable.strings */; };
 		848DCA0528ABE5B5001FB00A /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */; };
 		848DCA0728ABE782001FB00A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0628ABE782001FB00A /* AppCoordinator.swift */; };
 		848DCA0928ABE7B1001FB00A /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0828ABE7B1001FB00A /* PeoplesCoordinator.swift */; };
 		848DCA0B28ABE7D6001FB00A /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0A28ABE7D6001FB00A /* RoomsCoordinator.swift */; };
-		848DCA0F28ABE85C001FB00A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA0E28ABE85C001FB00A /* APIError.swift */; };
-		848DCA1128ABE885001FB00A /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1028ABE885001FB00A /* APIRequest.swift */; };
-		848DCA1328ABE899001FB00A /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1228ABE899001FB00A /* EndPoints.swift */; };
-		848DCA1528ABE8BF001FB00A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1428ABE8BF001FB00A /* NetworkManager.swift */; };
-		848DCA1728ABE8DF001FB00A /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1628ABE8DF001FB00A /* URLRequest+Extension.swift */; };
 		848DCA1A28ABE951001FB00A /* RoomsResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1928ABE951001FB00A /* RoomsResponce.swift */; };
 		848DCA1C28ABE9B7001FB00A /* RoomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1B28ABE9B7001FB00A /* RoomsRepository.swift */; };
 		848DCA1E28ABE9E3001FB00A /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA1D28ABE9E3001FB00A /* RoomsViewController.swift */; };
@@ -61,6 +56,7 @@
 		848DCA6D28ABF3D0001FB00A /* MokcPeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA6C28ABF3D0001FB00A /* MokcPeopleUseCase.swift */; };
 		848DCA6F28ABF415001FB00A /* MockRoomsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */; };
 		848DCA7128ABF454001FB00A /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */; };
+		848DCA7E28ACD4E5001FB00A /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 848DCA7D28ACD4E5001FB00A /* CoreNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,16 +89,11 @@
 		848DC9EC28ABE156001FB00A /* RoomsPersonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsPersonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848DC9F028ABE156001FB00A /* RoomsPersonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITests.swift; sourceTree = "<group>"; };
 		848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		848DCA0128ABE439001FB00A /* Localizable */ = {isa = PBXFileReference; lastKnownFileType = text; path = Localizable; sourceTree = "<group>"; };
+		848DCA0128ABE439001FB00A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		848DCA0428ABE5B5001FB00A /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
 		848DCA0628ABE782001FB00A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		848DCA0828ABE7B1001FB00A /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
 		848DCA0A28ABE7D6001FB00A /* RoomsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
-		848DCA0E28ABE85C001FB00A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		848DCA1028ABE885001FB00A /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		848DCA1228ABE899001FB00A /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
-		848DCA1428ABE8BF001FB00A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		848DCA1628ABE8DF001FB00A /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 		848DCA1928ABE951001FB00A /* RoomsResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsResponce.swift; sourceTree = "<group>"; };
 		848DCA1B28ABE9B7001FB00A /* RoomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRepository.swift; sourceTree = "<group>"; };
 		848DCA1D28ABE9E3001FB00A /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +130,7 @@
 		848DCA6C28ABF3D0001FB00A /* MokcPeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokcPeopleUseCase.swift; sourceTree = "<group>"; };
 		848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoomsUseCase.swift; sourceTree = "<group>"; };
 		848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
+		848DCA7B28ACD465001FB00A /* CoreNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreNetwork; path = ../CoreNetwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848DCA7E28ACD4E5001FB00A /* CoreNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +162,12 @@
 		848DC9C328ABE154001FB00A = {
 			isa = PBXGroup;
 			children = (
+				848DCA7B28ACD465001FB00A /* CoreNetwork */,
 				848DC9CE28ABE154001FB00A /* RoomsPersonApp */,
 				848DC9E528ABE156001FB00A /* RoomsPersonAppTests */,
 				848DC9EF28ABE156001FB00A /* RoomsPersonAppUITests */,
 				848DC9CD28ABE154001FB00A /* Products */,
+				848DCA7C28ACD4E5001FB00A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,7 +184,6 @@
 		848DC9CE28ABE154001FB00A /* RoomsPersonApp */ = {
 			isa = PBXGroup;
 			children = (
-				848DCA0C28ABE839001FB00A /* Sources */,
 				848DC9CF28ABE154001FB00A /* AppDelegate.swift */,
 				848DC9D128ABE154001FB00A /* SceneDelegate.swift */,
 				848DC9FF28ABE36D001FB00A /* RoomsPersonApp */,
@@ -235,7 +229,7 @@
 		848DCA0028ABE38C001FB00A /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				848DCA0128ABE439001FB00A /* Localizable */,
+				848DCA0128ABE439001FB00A /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -249,26 +243,6 @@
 				848DCA0A28ABE7D6001FB00A /* RoomsCoordinator.swift */,
 			);
 			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		848DCA0C28ABE839001FB00A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				848DCA0D28ABE844001FB00A /* CoreNetwork */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		848DCA0D28ABE844001FB00A /* CoreNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				848DCA0E28ABE85C001FB00A /* APIError.swift */,
-				848DCA1028ABE885001FB00A /* APIRequest.swift */,
-				848DCA1228ABE899001FB00A /* EndPoints.swift */,
-				848DCA1428ABE8BF001FB00A /* NetworkManager.swift */,
-				848DCA1628ABE8DF001FB00A /* URLRequest+Extension.swift */,
-			);
-			path = CoreNetwork;
 			sourceTree = "<group>";
 		};
 		848DCA1828ABE93B001FB00A /* Rooms */ = {
@@ -414,6 +388,13 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
+		848DCA7C28ACD4E5001FB00A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -424,12 +405,16 @@
 				848DC9C828ABE154001FB00A /* Sources */,
 				848DC9C928ABE154001FB00A /* Frameworks */,
 				848DC9CA28ABE154001FB00A /* Resources */,
+				848DCA7228AC49E0001FB00A /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RoomsPersonApp;
+			packageProductDependencies = (
+				848DCA7D28ACD4E5001FB00A /* CoreNetwork */,
+			);
 			productName = RoomsPersonApp;
 			productReference = 848DC9CC28ABE154001FB00A /* RoomsPersonApp.app */;
 			productType = "com.apple.product-type.application";
@@ -502,6 +487,8 @@
 				Base,
 			);
 			mainGroup = 848DC9C328ABE154001FB00A;
+			packageReferences = (
+			);
 			productRefGroup = 848DC9CD28ABE154001FB00A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -519,7 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848DC9DC28ABE156001FB00A /* LaunchScreen.storyboard in Resources */,
-				848DCA0228ABE439001FB00A /* Localizable in Resources */,
+				848DCA0228ABE439001FB00A /* Localizable.strings in Resources */,
 				848DC9D928ABE156001FB00A /* Assets.xcassets in Resources */,
 				848DC9D728ABE154001FB00A /* Main.storyboard in Resources */,
 			);
@@ -547,6 +534,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		848DCA7228AC49E0001FB00A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		848DC9C828ABE154001FB00A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -558,8 +565,6 @@
 				848DCA3628ABEC81001FB00A /* PeoplesRepository.swift in Sources */,
 				848DCA3A28ABECF0001FB00A /* PeopleViewModel.swift in Sources */,
 				848DCA0728ABE782001FB00A /* AppCoordinator.swift in Sources */,
-				848DCA1328ABE899001FB00A /* EndPoints.swift in Sources */,
-				848DCA1528ABE8BF001FB00A /* NetworkManager.swift in Sources */,
 				848DCA3428ABEC16001FB00A /* UIFont+Extension.swift in Sources */,
 				848DCA1E28ABE9E3001FB00A /* RoomsViewController.swift in Sources */,
 				848DCA2828ABEAC0001FB00A /* RoomsTableViewCell.swift in Sources */,
@@ -573,15 +578,12 @@
 				848DCA0528ABE5B5001FB00A /* CoordinatorType.swift in Sources */,
 				848DCA0928ABE7B1001FB00A /* PeoplesCoordinator.swift in Sources */,
 				848DCA0B28ABE7D6001FB00A /* RoomsCoordinator.swift in Sources */,
-				848DCA1128ABE885001FB00A /* APIRequest.swift in Sources */,
 				848DCA2628ABEA7B001FB00A /* RoomsViewStates.swift in Sources */,
 				848DCA3028ABEBD3001FB00A /* Alertable.swift in Sources */,
 				848DCA3828ABECC3001FB00A /* PeoplesViewController.swift in Sources */,
 				848DCA2D28ABEB45001FB00A /* Constants.swift in Sources */,
 				848DCA1A28ABE951001FB00A /* RoomsResponce.swift in Sources */,
-				848DCA1728ABE8DF001FB00A /* URLRequest+Extension.swift in Sources */,
 				848DCA3E28ABED6D001FB00A /* PeopleRecord.swift in Sources */,
-				848DCA0F28ABE85C001FB00A /* APIError.swift in Sources */,
 				848DCA2028ABEA0D001FB00A /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -930,6 +932,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		848DCA7D28ACD4E5001FB00A /* CoreNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 848DC9C428ABE154001FB00A /* Project object */;
 }
