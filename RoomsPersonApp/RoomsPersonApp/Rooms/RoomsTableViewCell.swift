@@ -33,13 +33,13 @@ final class RoomsTableViewCell: UITableViewCell {
     }
     func enableDynamicFonts() {
         idLabel.adjustsFontForContentSizeCategory = true
-        idLabel.font = UIFont.customFont(forTextStyle: .caption1)
+        idLabel.font = UIFont.customFont(forTextStyle: .body)
         occupiedLabel.adjustsFontForContentSizeCategory = true
-        occupiedLabel.font = UIFont.customFont(forTextStyle: .caption2)
+        occupiedLabel.font = UIFont.customFont(forTextStyle: .body)
         maxOccupancyLabel.adjustsFontForContentSizeCategory = true
-        maxOccupancyLabel.font = UIFont.customFont(forTextStyle: .caption2)
+        maxOccupancyLabel.font = UIFont.customFont(forTextStyle: .body)
         createdAtLabel.adjustsFontForContentSizeCategory = true
-        createdAtLabel.font = UIFont.customFont(forTextStyle: .caption2)
+        createdAtLabel.font = UIFont.customFont(forTextStyle: .body)
 
     }
 }

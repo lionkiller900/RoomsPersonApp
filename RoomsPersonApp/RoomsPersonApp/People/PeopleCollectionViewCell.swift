@@ -35,8 +35,8 @@ final class PeopleCollectionViewCell: UICollectionViewCell {
     }
     func enableDynamicFonts() {
         nameLabel.adjustsFontForContentSizeCategory = true
-        nameLabel.font = UIFont.customFont(forTextStyle: .caption1)
+        nameLabel.font = UIFont.customFont(forTextStyle: .body)
         titleLabel.adjustsFontForContentSizeCategory = true
-        titleLabel.font = UIFont.customFont(forTextStyle: .caption2)
+        titleLabel.font = UIFont.customFont(forTextStyle: .body)
     }
 }

@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FD7E8428AD1FD400110562 /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 04FD7E8328AD1FD400110562 /* CoreNetwork */; };
+		04FD7E8628AD210700110562 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FD7E8528AD210700110562 /* Merriweather-Regular.ttf */; };
 		848DC9D028ABE154001FB00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9CF28ABE154001FB00A /* AppDelegate.swift */; };
 		848DC9D228ABE154001FB00A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9D128ABE154001FB00A /* SceneDelegate.swift */; };
 		848DC9D728ABE154001FB00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848DC9D528ABE154001FB00A /* Main.storyboard */; };
 		848DC9D928ABE156001FB00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848DC9D828ABE156001FB00A /* Assets.xcassets */; };
 		848DC9DC28ABE156001FB00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848DC9DA28ABE156001FB00A /* LaunchScreen.storyboard */; };
-		848DC9E728ABE156001FB00A /* RoomsPersonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */; };
 		848DC9F128ABE156001FB00A /* RoomsPersonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F028ABE156001FB00A /* RoomsPersonAppUITests.swift */; };
 		848DC9F328ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */; };
 		848DCA0228ABE439001FB00A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA0128ABE439001FB00A /* Localizable.strings */; };
@@ -78,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FD7E8228AD1FA600110562 /* CoreNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreNetwork; sourceTree = "<group>"; };
+		04FD7E8528AD210700110562 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		848DC9CC28ABE154001FB00A /* RoomsPersonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomsPersonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848DC9CF28ABE154001FB00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848DC9D128ABE154001FB00A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +89,6 @@
 		848DC9DB28ABE156001FB00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848DC9DD28ABE156001FB00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848DC9E228ABE156001FB00A /* RoomsPersonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsPersonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppTests.swift; sourceTree = "<group>"; };
 		848DC9EC28ABE156001FB00A /* RoomsPersonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomsPersonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848DC9F028ABE156001FB00A /* RoomsPersonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITests.swift; sourceTree = "<group>"; };
 		848DC9F228ABE156001FB00A /* RoomsPersonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPersonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -133,7 +135,6 @@
 		848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
 		848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoomRepository.swift; sourceTree = "<group>"; };
 		848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPeopleRepository.swift; sourceTree = "<group>"; };
-		848DCA8628AD1901001FB00A /* CoreNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreNetwork; path = ../CoreNetwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD7E8428AD1FD400110562 /* CoreNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +163,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04FD7E8728AD223A00110562 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA6C28ABF3D0001FB00A /* MokcPeopleUseCase.swift */,
+				848DCA5E28ABF239001FB00A /* PeopleRepositoryTests.swift */,
+				848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */,
+				848DCA6528ABF2E7001FB00A /* PeopleUseCaseTests.swift */,
+				848DCA6928ABF335001FB00A /* PeopleViewModelTests.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		04FD7E8828AD224400110562 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */,
+				848DCA6728ABF305001FB00A /* RoomsUseCaseTests.swift */,
+				848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */,
+				848DCA6028ABF271001FB00A /* RoomsRepositoryTests.swift */,
+				848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
 		848DC9C328ABE154001FB00A = {
 			isa = PBXGroup;
 			children = (
-				848DCA8628AD1901001FB00A /* CoreNetwork */,
+				04FD7E8228AD1FA600110562 /* CoreNetwork */,
 				848DC9CE28ABE154001FB00A /* RoomsPersonApp */,
 				848DC9E528ABE156001FB00A /* RoomsPersonAppTests */,
 				848DC9EF28ABE156001FB00A /* RoomsPersonAppUITests */,
@@ -199,13 +225,11 @@
 		848DC9E528ABE156001FB00A /* RoomsPersonAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				848DCA4728ABEE96001FB00A /* Presentation */,
-				848DCA4628ABEE8E001FB00A /* Domain */,
-				848DCA4528ABEE86001FB00A /* Data */,
 				848DCA6228ABF296001FB00A /* UrlRequestTest.swift */,
-				848DCA5E28ABF239001FB00A /* PeopleRepositoryTests.swift */,
-				848DCA6028ABF271001FB00A /* RoomsRepositoryTests.swift */,
-				848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */,
+				848DCA4B28ABEF43001FB00A /* json */,
+				04FD7E8828AD224400110562 /* Room */,
+				04FD7E8728AD223A00110562 /* People */,
+				848DCA4528ABEE86001FB00A /* Data */,
 			);
 			path = RoomsPersonAppTests;
 			sourceTree = "<group>";
@@ -286,6 +310,7 @@
 				848DCA2E28ABEB58001FB00A /* Storyboards */,
 				848DCA2B28ABEB1F001FB00A /* fonts */,
 				848DCA2F28ABEBD3001FB00A /* Alertable.swift */,
+				848DCA2C28ABEB45001FB00A /* Constants.swift */,
 				848DCA3128ABEC01001FB00A /* Storyboardable.swift */,
 				848DCA3328ABEC16001FB00A /* UIFont+Extension.swift */,
 			);
@@ -295,7 +320,7 @@
 		848DCA2B28ABEB1F001FB00A /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				848DCA2C28ABEB45001FB00A /* Constants.swift */,
+				04FD7E8528AD210700110562 /* Merriweather-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -311,30 +336,9 @@
 		848DCA4528ABEE86001FB00A /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				848DCA4B28ABEF43001FB00A /* json */,
 				848DCA4828ABEEFE001FB00A /* Mock */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		848DCA4628ABEE8E001FB00A /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				848DCA6428ABF2D0001FB00A /* Mock */,
-				848DCA6528ABF2E7001FB00A /* PeopleUseCaseTests.swift */,
-				848DCA6728ABF305001FB00A /* RoomsUseCaseTests.swift */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		848DCA4728ABEE96001FB00A /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				848DCA6B28ABF393001FB00A /* Mock */,
-				848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */,
-				848DCA6928ABF335001FB00A /* PeopleViewModelTests.swift */,
-			);
-			path = Presentation;
 			sourceTree = "<group>";
 		};
 		848DCA4828ABEEFE001FB00A /* Mock */ = {
@@ -374,24 +378,6 @@
 			path = people;
 			sourceTree = "<group>";
 		};
-		848DCA6428ABF2D0001FB00A /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-				848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */,
-				848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */,
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
-		848DCA6B28ABF393001FB00A /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-				848DCA6C28ABF3D0001FB00A /* MokcPeopleUseCase.swift */,
-				848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */,
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
 		848DCA7C28ACD4E5001FB00A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +403,7 @@
 			);
 			name = RoomsPersonApp;
 			packageProductDependencies = (
+				04FD7E8328AD1FD400110562 /* CoreNetwork */,
 			);
 			productName = RoomsPersonApp;
 			productReference = 848DC9CC28ABE154001FB00A /* RoomsPersonApp.app */;
@@ -512,6 +499,7 @@
 				848DCA0228ABE439001FB00A /* Localizable.strings in Resources */,
 				848DC9D928ABE156001FB00A /* Assets.xcassets in Resources */,
 				848DC9D728ABE154001FB00A /* Main.storyboard in Resources */,
+				04FD7E8628AD210700110562 /* Merriweather-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +595,6 @@
 				848DCA5F28ABF239001FB00A /* PeopleRepositoryTests.swift in Sources */,
 				848DCA7128ABF454001FB00A /* RoomsViewModelTests.swift in Sources */,
 				848DCA8028ACDC1B001FB00A /* MockRoomRepository.swift in Sources */,
-				848DC9E728ABE156001FB00A /* RoomsPersonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,6 +924,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04FD7E8328AD1FD400110562 /* CoreNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 848DC9C428ABE154001FB00A /* Project object */;
 }
