@@ -59,6 +59,7 @@
 		848DCA7E28ACD4E5001FB00A /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 848DCA7D28ACD4E5001FB00A /* CoreNetwork */; };
 		848DCA8028ACDC1B001FB00A /* MockRoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */; };
 		848DCA8228ACDC53001FB00A /* MockPeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */; };
+		848DCA8528AD0D8E001FB00A /* CoreNetwork in Resources */ = {isa = PBXBuildFile; fileRef = 848DCA7B28ACD465001FB00A /* CoreNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,7 +133,7 @@
 		848DCA6C28ABF3D0001FB00A /* MokcPeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokcPeopleUseCase.swift; sourceTree = "<group>"; };
 		848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoomsUseCase.swift; sourceTree = "<group>"; };
 		848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
-		848DCA7B28ACD465001FB00A /* CoreNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreNetwork; path = ../CoreNetwork; sourceTree = "<group>"; };
+		848DCA7B28ACD465001FB00A /* CoreNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreNetwork; sourceTree = "<group>"; };
 		848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoomRepository.swift; sourceTree = "<group>"; };
 		848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPeopleRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -511,6 +512,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848DCA8528AD0D8E001FB00A /* CoreNetwork in Resources */,
 				848DC9DC28ABE156001FB00A /* LaunchScreen.storyboard in Resources */,
 				848DCA0228ABE439001FB00A /* Localizable.strings in Resources */,
 				848DC9D928ABE156001FB00A /* Assets.xcassets in Resources */,
