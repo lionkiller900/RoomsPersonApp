@@ -7,7 +7,7 @@
 import Foundation
 import XCTest
 import CoreNetwork
-@testable import DirectoryApp
+@testable import RoomsPersonApp
 
 class MockRoomsUseCase: RoomsUseCase {
     var roomsRecords: [RoomRecord]?

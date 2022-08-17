@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import DirectoryApp
+@testable import RoomsPersonApp
 import XCTest
 import CoreNetwork
 
