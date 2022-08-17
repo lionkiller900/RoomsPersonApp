@@ -57,6 +57,8 @@
 		848DCA6F28ABF415001FB00A /* MockRoomsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */; };
 		848DCA7128ABF454001FB00A /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */; };
 		848DCA7E28ACD4E5001FB00A /* CoreNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 848DCA7D28ACD4E5001FB00A /* CoreNetwork */; };
+		848DCA8028ACDC1B001FB00A /* MockRoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */; };
+		848DCA8228ACDC53001FB00A /* MockPeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +133,8 @@
 		848DCA6E28ABF415001FB00A /* MockRoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoomsUseCase.swift; sourceTree = "<group>"; };
 		848DCA7028ABF454001FB00A /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
 		848DCA7B28ACD465001FB00A /* CoreNetwork */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CoreNetwork; path = ../CoreNetwork; sourceTree = "<group>"; };
+		848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRoomRepository.swift; sourceTree = "<group>"; };
+		848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPeopleRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,9 @@
 				848DCA4728ABEE96001FB00A /* Presentation */,
 				848DCA4628ABEE8E001FB00A /* Domain */,
 				848DCA4528ABEE86001FB00A /* Data */,
+				848DCA6228ABF296001FB00A /* UrlRequestTest.swift */,
+				848DCA5E28ABF239001FB00A /* PeopleRepositoryTests.swift */,
+				848DCA6028ABF271001FB00A /* RoomsRepositoryTests.swift */,
 				848DC9E628ABE156001FB00A /* RoomsPersonAppTests.swift */,
 			);
 			path = RoomsPersonAppTests;
@@ -316,6 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				848DCA6428ABF2D0001FB00A /* Mock */,
+				848DCA6528ABF2E7001FB00A /* PeopleUseCaseTests.swift */,
+				848DCA6728ABF305001FB00A /* RoomsUseCaseTests.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -343,9 +352,6 @@
 			children = (
 				848DCA4D28ABEF60001FB00A /* people */,
 				848DCA4C28ABEF58001FB00A /* rooms */,
-				848DCA5E28ABF239001FB00A /* PeopleRepositoryTests.swift */,
-				848DCA6028ABF271001FB00A /* RoomsRepositoryTests.swift */,
-				848DCA6228ABF296001FB00A /* UrlRequestTest.swift */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -373,8 +379,8 @@
 		848DCA6428ABF2D0001FB00A /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				848DCA6528ABF2E7001FB00A /* PeopleUseCaseTests.swift */,
-				848DCA6728ABF305001FB00A /* RoomsUseCaseTests.swift */,
+				848DCA7F28ACDC1B001FB00A /* MockRoomRepository.swift */,
+				848DCA8128ACDC53001FB00A /* MockPeopleRepository.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -596,12 +602,14 @@
 				848DCA6128ABF271001FB00A /* RoomsRepositoryTests.swift in Sources */,
 				848DCA6F28ABF415001FB00A /* MockRoomsUseCase.swift in Sources */,
 				848DCA6A28ABF336001FB00A /* PeopleViewModelTests.swift in Sources */,
+				848DCA8228ACDC53001FB00A /* MockPeopleRepository.swift in Sources */,
 				848DCA4A28ABEF1D001FB00A /* MockNetworkManager.swift in Sources */,
 				848DCA6828ABF305001FB00A /* RoomsUseCaseTests.swift in Sources */,
 				848DCA6628ABF2E7001FB00A /* PeopleUseCaseTests.swift in Sources */,
 				848DCA6328ABF296001FB00A /* UrlRequestTest.swift in Sources */,
 				848DCA5F28ABF239001FB00A /* PeopleRepositoryTests.swift in Sources */,
 				848DCA7128ABF454001FB00A /* RoomsViewModelTests.swift in Sources */,
+				848DCA8028ACDC1B001FB00A /* MockRoomRepository.swift in Sources */,
 				848DC9E728ABE156001FB00A /* RoomsPersonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

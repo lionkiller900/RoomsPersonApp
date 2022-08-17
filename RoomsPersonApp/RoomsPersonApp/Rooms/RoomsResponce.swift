@@ -1,20 +1,24 @@
 //
-//  URLRequest+Extension.swift
+//  RoomsResponseDTO.swift
 //  DirectoryApp
 //
-//  Created by Donald Daniels on 15/08/22.
+//  Created by Daniel on 15/08/22.
 //
 
 import Foundation
+// swiftlint:disable line_length
 
-extension URLRequest {
-    public static func getURLRequest(for apiRequest: ApiRequestType) -> URLRequest? {
-        if let url = URL(string: apiRequest.baseUrl.appending(apiRequest.path)),
-           let urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false) {
-            let urlRequest = URLRequest(url: urlComponents.url!)
-            return urlRequest
-        } else {
-            return nil
-        }
+struct RoomsResponce: Decodable {
+    var createdAt: String
+    var isOccupied: Bool
+    var maxOccupancy: Int
+    var id: String
+}
+
+// MARK: - Mappings to Domain
+
+extension RoomsResponce {
+    func toDomain() -> RoomRecord {
+        return RoomRecord(createdAt: createdAt, occupiedMessage: isOccupied ? "Occupied" :"Not Occupied", maxOccupancy: maxOccupancy, id: id)
     }
 }

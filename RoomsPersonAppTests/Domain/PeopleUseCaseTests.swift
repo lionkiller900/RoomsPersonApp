@@ -7,7 +7,7 @@
 
 import XCTest
 import CoreNetwork
-@testable import DirectoryApp
+@testable import RoomsPersonApp
 // swiftlint:disable line_length
 
 class PeopleUseCaseTests: XCTestCase {
