@@ -7,7 +7,7 @@
 
 import Foundation
 import CoreNetwork
-@testable import DirectoryApp
+@testable import RoomsPersonApp
 
 class MockNetworkManager: Networkable {
     private var jsonFilePath = ""
